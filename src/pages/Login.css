@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(4, 0, 42);
+
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.lpage {
+
+    display: flex;
+    height: 600px;
+    align-items: center;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.413);
+}
+
+.loginphoto {
+    height: 500px;
+    border-radius: 5px;
+}
+
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-left: 2px solid rgba(0, 0, 255, 0.112);
+    padding: 10px;
+}
+
+.loginhead {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(34, 0, 146);
+    margin: 0px;
+}
+
+.loginitems {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 30px;
+
+}
+
+.userinput {
+    background-color: rgb(242, 242, 242);
+    border: none;
+    border-bottom: 2px solid blue;
+    border-radius: 1px;
+    height: 15px;
+    width: 300px;
+    padding: 6px;
+}
+
+.userinput:focus {
+    outline: none;
+}
+
+.lable {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(0, 0, 54);
+    margin-right: 20px;
+}
+
+.items {
+    margin-top: 30px;
+}
+
+.radio {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px;
+
+}
+
+.select {
+    cursor: pointer;
+    accent-color: rgb(0, 0, 163);
+}
+
+
+
+#otp {
+    width: 100px;
+}
+
+.otpbtn {
+    margin-left: 20px;
+    height: 30px;
+    padding: 5px;
+    width: 100px;
+    font-size: 14px;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(0, 0, 54);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.loginbtn {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 0, 176);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    margin-bottom: 0px;
+}

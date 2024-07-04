@@ -1,0 +1,38 @@
+/* .detailedpost {
+    display: flex;
+    justify-content: center;
+} */
+
+.item {
+    max-width: 1500px;
+    background-color: white;
+    display: flex;
+    /* flex-direction: column; */
+    margin: 50px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.imgdiv {
+    height: 300px;
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgfall {
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.postimg {
+    height: 300px;
+
+}
+
+.postdetail {
+    margin-left: 40px;
+}

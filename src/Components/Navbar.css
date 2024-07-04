@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(25, 24, 24);
+    justify-content: space-between;
+}
+
+.title {
+    margin: 0px;
+    color: rgb(0, 153, 255);
+    margin-left: 10px;
+}
+
+.navbtn {
+    align-self: center;
+}
+
+.logoutbtn {
+    height: 35px;
+    width: 95px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(230, 39, 39);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.log {
+    position: absolute;
+}
+
+.create {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navitems {
+
+    color: aliceblue;
+    font-size: 17px;
+    margin: 12px;
+    cursor: pointer;
+
+
+}
+
+
+#item {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(31, 136, 229)
+}
+
+
+
+#item::after {
+    content: '';
+    width: 105%;
+    border-radius: 8px;
+    background-color: rgb(31, 136, 229);
+    height: 2px;
+    position: absolute;
+    left: -2px;
+    bottom: -6px;
+    transition: 0.5s;
+
+
+}

@@ -1,0 +1,72 @@
+.Logout {
+    display: flex;
+    justify-content: center;
+
+}
+
+.backdrop {
+    background-color: rgba(0, 0, 0, 0.539);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.logoutmenu {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.logoutpopup {
+    position: fixed;
+    top: 300px;
+    background-color: rgb(25, 24, 24);
+    width: 400px;
+    height: 200px;
+    z-index: 1;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.849);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logouthead {
+    color: white;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.confirmbtn {
+    display: flex;
+    margin-top: 40px;
+    /* position: absolute;
+    bottom: 20px;
+    right: 20px; */
+}
+
+.cancellogout,
+.confirmlogout {
+    height: 40px;
+    width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.cancellogout {
+    background-color: rgb(171, 0, 0);
+}
+
+.confirmlogout {
+    background-color: blue;
+}
