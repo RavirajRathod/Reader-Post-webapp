@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+Reader web app for Reading daily post and be knowledgable, explore post from api which gives knowledge around world.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Output
 
-## Available Scripts
+1. Secure Login Page
+   
+    ![Reader Login page](https://github.com/user-attachments/assets/6d04b833-3766-4f56-848e-4142d581081d)
 
-In the project directory, you can run:
+2. OTP Authentication
 
-### `npm start`
+    ![Reader otp authentication](https://github.com/user-attachments/assets/ce962035-8e96-40a2-9679-0977fa192fbd)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Admin Deshboard
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ![Reader Admin Deshboard](https://github.com/user-attachments/assets/7c4c0a9e-7313-41a4-bf75-da07d4b549ff)
 
-### `npm test`
+4. User Deshboard
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ![Reader user deshboard](https://github.com/user-attachments/assets/0865302e-41d0-4504-bfce-20d9ed773c92)
 
-### `npm run build`
+5. Create Post page for Admin
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ![Reader create post page](https://github.com/user-attachments/assets/09b3d458-dd96-458b-8b1a-4bb3c8451c47)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+6. See Post in Detail page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ![Reader Post detail page](https://github.com/user-attachments/assets/55eb5cbe-f4ff-4eff-91b8-733e5feb6f04)
 
-### `npm run eject`
+7. Conformation for delete post
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ![Reader Conformation page for delete post](https://github.com/user-attachments/assets/49d97c46-4dae-45cb-9f16-b472322dcbb3)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+8. Explore Post form API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ![Reader Explore page](https://github.com/user-attachments/assets/51432171-6e93-44ad-9a4b-c3bc77447cc0)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+9. Filter Post in Explore Post
 
-## Learn More
+   ![Reader filter post](https://github.com/user-attachments/assets/7e969a6e-e498-4431-a152-14585fd92668)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+10. Confirmation for Logout
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    ![Reader logout confirm page](https://github.com/user-attachments/assets/3a97e438-49b8-4ea0-b720-e8ab08fb9855)
